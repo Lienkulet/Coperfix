@@ -6,7 +6,7 @@ export default function ServiceRow({ num, href, image, alt, name, description })
   return (
     <Link
       href={href}
-      className="group grid items-center gap-6 py-8 border-b border-white/10 text-white transition-all duration-300 hover:pl-4"
+      className="service-row group grid items-center gap-6 py-8 border-b border-white/10 text-white transition-all duration-300"
       style={{ gridTemplateColumns: "80px 1.2fr 2fr" }}
     >
       <span
@@ -22,7 +22,7 @@ export default function ServiceRow({ num, href, image, alt, name, description })
           alt={alt}
           width={320}
           height={240}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.08]"
         />
       </div>
 
