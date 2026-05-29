@@ -165,7 +165,7 @@ export default function Navbar() {
                 className="block w-full rounded-sm transition-all duration-300"
                 style={{
                   height: "2.5px",
-                  background: transparent || menuOpen ? "#fff" : INK,
+                  background: transparent ? "#fff" : INK,
                   transform:
                     menuOpen
                       ? i === 0 ? "translateY(7.5px) rotate(45deg)"
