@@ -34,7 +34,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-gray-700 leading-relaxed mb-10" style={{ fontSize: "1.1rem", maxWidth: "500px" }}>
-              Păstrăm un portofoliu intenționat — copertine, terase, balcoane, garduri, parcari auto — astfel încât lucrarea rămâne în casă și calitatea rămâne constantă.
+              Păstrăm un portofoliu intenționat — copertine pentru terase, balcoane, garduri, parcari auto — astfel încât lucrarea rămâne în casă și calitatea rămâne constantă.
             </p>
 
             <div className="flex flex-wrap gap-3">

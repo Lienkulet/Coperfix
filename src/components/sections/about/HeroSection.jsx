@@ -35,7 +35,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-gray-700 leading-relaxed" style={{ fontSize: "1.1rem", maxWidth: "520px" }}>
-              Coperfix este o afacere de familie specializată în copertine și construcții metalice ușoare pentru exterior. Construim copertine, terase, balcoane, garduri, parcari auto, iar fiecare proiect îl tratăm personal, cu numele nostru pe el.
+              Coperfix este o afacere de familie specializată în copertine și construcții metalice ușoare pentru exterior. Construim copertine pentru terase, balcoane, garduri, parcari auto, iar fiecare proiect îl tratăm personal, cu numele nostru pe el.
             </p>
           </div>
 

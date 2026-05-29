@@ -44,7 +44,7 @@ export default function HeroSection() {
             </span>
           </h1>
           <p className="text-gray-700 mx-auto" style={{ fontSize: "1.1rem", lineHeight: 1.7, maxWidth: 640 }}>
-            Descoperiți măiestria noastră printr-o colecție de proiecte recente de copertine, terase, balcoane, garduri, parcari auto executate în toată Moldova.
+            Descoperiți măiestria noastră printr-o colecție de proiecte recente de copertine pentru terase, balcoane, garduri, parcari auto executate în toată Moldova.
           </p>
         </div>
       </div>

@@ -27,7 +27,7 @@ const playfair = Playfair_Display({
 export const metadata = {
   title: "Coperfix | Copertine moderne la comandă · Chișinău, Moldova",
   description:
-    "Coperfix confecționează și montează copertine, terase, balcoane, garduri, parcari auto în Moldova. Echipă proprie, prețuri fixe, garanție 10 ani. Solicită ofertă gratuită.",
+    "Coperfix confecționează și montează copertine pentru terase, balcoane, garduri, parcari auto în Moldova. Echipă proprie, prețuri fixe, garanție 10 ani. Solicită ofertă gratuită.",
 };
 
 export default function RootLayout({ children }) {

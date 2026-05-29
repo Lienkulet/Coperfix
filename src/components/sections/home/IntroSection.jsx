@@ -45,7 +45,7 @@ export default function IntroSection() {
               gestionează fiecare proiect de la prima estimare până la predarea finală. Fără subcontractanți, fără call center.
             </p>
             <p className="text-gray-700 leading-[1.8]" style={{ fontSize: "1.02rem" }}>
-              Ne specializăm în <strong className="text-ink font-semibold">copertine, terase, balcoane, garduri, parcari auto</strong>.
+              Ne specializăm în <strong className="text-ink font-semibold">copertine pentru terase, balcoane, garduri, parcari auto</strong>.
               Fie că este vorba de o înlocuire completă, o reparație rapidă sau o structură nouă, o facem cu
               precizie și tratăm fiecare proprietate ca pe a noastră.
             </p>

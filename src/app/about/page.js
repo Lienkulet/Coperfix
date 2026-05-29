@@ -14,7 +14,7 @@ import {
 export const metadata = {
   title: "Despre noi | Coperfix",
   description:
-    "Echipa Coperfix construiește copertine, terase, balcoane, garduri, parcari auto în Moldova. Aflați povestea noastră, valorile și angajamentul față de fiecare proiect.",
+    "Echipa Coperfix construiește copertine pentru terase, balcoane, garduri, parcari auto în Moldova. Aflați povestea noastră, valorile și angajamentul față de fiecare proiect.",
 };
 
 export default function AboutPage() {
