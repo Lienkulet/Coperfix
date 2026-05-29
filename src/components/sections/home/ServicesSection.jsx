@@ -4,7 +4,7 @@ const SERVICES = [
   {
     num: "01",
     href: "/services#roofing",
-    image: "/rd-drone-4.jpg",
+    image: "/copertine.jpg",
     alt: "Copertine auto",
     name: "Copertine auto",
     description: "Structuri din aluminiu sau metal vopsit electrostatic pentru 1, 2 sau 4 mașini. Rezistente la zăpadă, vânt și UV.",
@@ -41,8 +41,8 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto px-5 sm:px-8 lg:px-12">
 
         <div
-          className="grid gap-12 items-end mb-12 pb-8"
-          style={{ gridTemplateColumns: "1.4fr 1fr", borderBottom: "1px solid rgba(255,255,255,0.08)" }}
+          className="grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-8 lg:gap-12 items-end mb-8 lg:mb-12 pb-8"
+          style={{ borderBottom: "1px solid rgba(255,255,255,0.08)" }}
         >
           <div>
             <span
