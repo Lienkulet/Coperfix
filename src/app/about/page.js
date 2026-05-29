@@ -1,33 +1,35 @@
-import AboutHeroSection     from "@/components/sections/AboutHeroSection";
-import AboutStorySection    from "@/components/sections/AboutStorySection";
-import AboutFamilySection   from "@/components/sections/AboutFamilySection";
-import AboutPullquoteSection from "@/components/sections/AboutPullquoteSection";
-import AboutPhotobandSection from "@/components/sections/AboutPhotobandSection";
-import AboutValuesSection   from "@/components/sections/AboutValuesSection";
-import AboutSpecSection     from "@/components/sections/AboutSpecSection";
-import AboutTrioSection     from "@/components/sections/AboutTrioSection";
-import AboutStatsSection    from "@/components/sections/AboutStatsSection";
-import AboutCtaSection      from "@/components/sections/AboutCtaSection";
+import {
+  HeroSection,
+  StorySection,
+  FamilySection,
+  PullquoteSection,
+  PhotobandSection,
+  ValuesSection,
+  SpecSection,
+  TrioSection,
+  StatsSection,
+  CtaSection,
+} from "@/components/sections/about";
 
 export const metadata = {
-  title: "About | R & D Perez Construction",
+  title: "Despre noi | Coperfix",
   description:
-    "Rafael Perez and family built R & D Perez Construction to deliver honest, quality roofing, deck, fence, and masonry work across Beaverton, Oregon.",
+    "Echipa Coperfix construiește copertine, terase, balcoane, garduri, parcari auto în Moldova. Aflați povestea noastră, valorile și angajamentul față de fiecare proiect.",
 };
 
 export default function AboutPage() {
   return (
     <>
-      <AboutHeroSection />
-      <AboutStorySection />
-      <AboutFamilySection />
-      <AboutPullquoteSection />
-      <AboutPhotobandSection />
-      <AboutValuesSection />
-      <AboutSpecSection />
-      <AboutTrioSection />
-      <AboutStatsSection />
-      <AboutCtaSection />
+      <HeroSection />
+      <StorySection />
+      <FamilySection />
+      <PullquoteSection />
+      <PhotobandSection />
+      <ValuesSection />
+      <SpecSection />
+      <TrioSection />
+      <StatsSection />
+      <CtaSection />
     </>
   );
 }

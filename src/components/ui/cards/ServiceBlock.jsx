@@ -28,7 +28,7 @@ export default function ServiceBlock({ id, num, image, alt, title, description, 
               style={{ fontFamily: "var(--font-heading)" }}
             >
               <span className="text-white/90 font-bold" style={{ fontSize: "2.5rem" }}>{num}</span>
-              <span className="text-white/50 uppercase tracking-widest" style={{ fontSize: "0.65rem" }}>of 04</span>
+              <span className="text-white/50 uppercase tracking-widest" style={{ fontSize: "0.65rem" }}>din 04</span>
             </span>
           </div>
 
@@ -38,7 +38,7 @@ export default function ServiceBlock({ id, num, image, alt, title, description, 
               style={{ fontFamily: "var(--font-heading)", fontSize: "0.72rem", fontWeight: 600 }}
             >
               <span className="w-6 h-px bg-brand-red" />
-              Service {num}
+              Serviciul {num}
             </span>
 
             <h2
@@ -58,7 +58,7 @@ export default function ServiceBlock({ id, num, image, alt, title, description, 
                 className="uppercase tracking-[0.12em] text-ink mb-4"
                 style={{ fontFamily: "var(--font-heading)", fontSize: "0.75rem", fontWeight: 600 }}
               >
-                What we handle
+                Ce acoperim
               </h3>
               <ul className="grid grid-cols-2 gap-2">
                 {features.map((item) => (
@@ -74,16 +74,16 @@ export default function ServiceBlock({ id, num, image, alt, title, description, 
               <Link
                 href="/#contact"
                 className="inline-flex items-center justify-center px-7 py-4 bg-brand-red text-white uppercase tracking-[0.1em] font-semibold transition-all duration-300 hover:bg-ink hover:-translate-y-0.5"
-                style={{ fontFamily: "var(--font-heading)", fontSize: "0.9rem", border: "2px solid #C7252A" }}
+                style={{ fontFamily: "var(--font-heading)", fontSize: "0.9rem", border: "2px solid #c9a14e" }}
               >
-                Get a Free Estimate
+                Solicită ofertă gratuită
               </Link>
               <a
-                href="tel:+15419923126"
+                href="tel:+37369585859"
                 className="inline-flex items-center justify-center px-7 py-4 bg-transparent text-ink uppercase tracking-[0.1em] font-semibold transition-all duration-300 hover:bg-ink hover:text-white hover:-translate-y-0.5"
                 style={{ fontFamily: "var(--font-heading)", fontSize: "0.9rem", border: "2px solid #161a1e" }}
               >
-                Call (541) 992-3126
+                Sună +373 69 585 859
               </a>
             </div>
           </div>

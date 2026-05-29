@@ -1,21 +1,23 @@
-import ServicesHeroSection   from "@/components/sections/ServicesHeroSection";
-import ServicesBlocksSection from "@/components/sections/ServicesBlocksSection";
-import ServicesProcessSection from "@/components/sections/ServicesProcessSection";
-import ServicesCtaSection    from "@/components/sections/ServicesCtaSection";
+import {
+  HeroSection,
+  BlocksSection,
+  ProcessSection,
+  CtaSection,
+} from "@/components/sections/services";
 
 export const metadata = {
-  title: "Services | R & D Perez Construction",
+  title: "Servicii | Coperfix",
   description:
-    "Roofing, decks, fences, and masonry in Beaverton, Oregon. Complete replacements, repairs, and specialty work from a family owned crew.",
+    "Copertine, terase, balcoane, garduri, parcari auto în Moldova. Execuție completă, de la proiectare la montaj, de o echipă proprie.",
 };
 
 export default function ServicesPage() {
   return (
     <>
-      <ServicesHeroSection />
-      <ServicesBlocksSection />
-      <ServicesProcessSection />
-      <ServicesCtaSection />
+      <HeroSection />
+      <BlocksSection />
+      <ProcessSection />
+      <CtaSection />
     </>
   );
 }

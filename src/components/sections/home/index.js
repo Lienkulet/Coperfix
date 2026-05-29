@@ -1,0 +1,10 @@
+export { default as HeroSection }            from "./HeroSection";
+export { default as MarqueeSection }         from "./MarqueeSection";
+export { default as IntroSection }           from "./IntroSection";
+export { default as ServicesSection }        from "./ServicesSection";
+export { default as FeatureProjectSection }  from "./FeatureProjectSection";
+export { default as TransformationSection }  from "./TransformationSection";
+export { default as GalleryStripSection }    from "./GalleryStripSection";
+export { default as QuotesSection }          from "./QuotesSection";
+export { default as FaqSection }             from "./FaqSection";
+export { default as ContactSection }         from "./ContactSection";

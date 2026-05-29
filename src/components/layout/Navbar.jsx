@@ -5,15 +5,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 
-const RED      = "#C7252A";
+const RED      = "#c9a14e";
 const INK      = "#111111";
 const HEADER_H = 76;
 
 const NAV_LINKS = [
-  { label: "Home",     href: "/"        },
-  { label: "About",    href: "/about"   },
-  { label: "Services", href: "/services"},
-  { label: "Work",     href: "/work"    },
+  { label: "Acasă",    href: "/"        },
+  { label: "Despre noi", href: "/about" },
+  { label: "Servicii", href: "/services"},
+  { label: "Lucrări",  href: "/work"    },
 ];
 
 export default function Navbar() {
@@ -73,16 +73,16 @@ export default function Navbar() {
       <header style={headerStyle}>
         {/* Red gradient underline — hidden when transparent */}
         {!transparent && (
-          <div style={{ position: "absolute", bottom: -3, left: 0, right: 0, height: 3, background: "linear-gradient(90deg, #4A0E0E 0%, #C7252A 50%, #4A0E0E 100%)" }} />
+          <div style={{ position: "absolute", bottom: -3, left: 0, right: 0, height: 3, background: "linear-gradient(90deg, #3d2800 0%, #c9a14e 50%, #3d2800 100%)" }} />
         )}
 
         <div className="max-w-7xl mx-auto px-6 h-full flex items-center justify-between gap-6">
 
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 shrink-0 group" aria-label="R & D Perez Construction home">
+          <Link href="/" className="flex items-center gap-3 shrink-0 group" aria-label="Coperfix Copertine la comandă">
             <Image
-              src="/logo.png"
-              alt="R & D Perez Construction LLC logo"
+              src="/coper-logo.png"
+              alt="Coperfix logo"
               width={56}
               height={56}
               className="h-14 w-auto object-contain transition-transform duration-300 group-hover:-rotate-3"
@@ -93,13 +93,13 @@ export default function Navbar() {
                 className="font-bold uppercase tracking-wide"
                 style={{ fontFamily: "var(--font-heading)", fontSize: "1.15rem", letterSpacing: "0.02em", color: transparent ? "#fff" : INK }}
               >
-                R &amp; D Perez
+                Coperfix
               </span>
               <span
                 className="uppercase mt-0.5"
                 style={{ fontFamily: "var(--font-body)", fontSize: "0.68rem", letterSpacing: "0.25em", color: transparent ? "rgba(255,255,255,0.72)" : "#7a7a7a" }}
               >
-                Construction LLC
+                Copertine la comandă
               </span>
             </div>
           </Link>
@@ -148,7 +148,7 @@ export default function Navbar() {
               onMouseEnter={(e) => { e.currentTarget.style.background = INK; e.currentTarget.style.borderColor = INK; }}
               onMouseLeave={(e) => { e.currentTarget.style.background = RED; e.currentTarget.style.borderColor = RED; }}
             >
-              Free Estimate
+              Ofertă gratuită
             </Link>
           </nav>
 
@@ -183,8 +183,8 @@ export default function Navbar() {
       {/* Side rail — visible only after past-hero on desktop */}
       {pastHero && (
         <a
-          href="tel:+15419923126"
-          aria-label="Call (541) 992-3126"
+          href="tel:+37369585859"
+          aria-label="Sună +373 69 585 859"
           className="hidden lg:flex fixed right-0 top-1/2 -translate-y-1/2 z-800 items-center justify-center bg-brand-red text-white hover:bg-ink transition-all duration-300 hover:pr-3.5"
           style={{
             padding: "14px 10px",
@@ -197,7 +197,7 @@ export default function Navbar() {
             className="rotate-180 inline-block uppercase tracking-[0.2em]"
             style={{ fontFamily: "var(--font-heading)", fontSize: "0.78rem", fontWeight: 600 }}
           >
-            Call (541) 992-3126
+            Sună +373 69 585 859
           </span>
         </a>
       )}
@@ -229,15 +229,15 @@ export default function Navbar() {
             className="mt-8 text-center py-4 text-white uppercase tracking-widest font-semibold"
             style={{ fontFamily: "var(--font-heading)", fontSize: "0.85rem", background: RED }}
           >
-            Free Estimate
+            Ofertă gratuită
           </Link>
 
           <div className="mt-auto pt-10 flex flex-col gap-2">
-            <a href="tel:+15419923126" className="text-white/70 tracking-wide hover:text-white transition-colors" style={{ fontSize: "1rem" }}>
-              (541) 992-3126
+            <a href="tel:+37369585859" className="text-white/70 tracking-wide hover:text-white transition-colors" style={{ fontSize: "1rem" }}>
+              +373 69 585 859
             </a>
-            <a href="mailto:rdperezconstruction@gmail.com" className="text-white/70 tracking-wide hover:text-white transition-colors" style={{ fontSize: "1rem" }}>
-              rdperezconstruction@gmail.com
+            <a href="mailto:office@coperfix.md" className="text-white/70 tracking-wide hover:text-white transition-colors" style={{ fontSize: "1rem" }}>
+              office@coperfix.md
             </a>
           </div>
         </div>

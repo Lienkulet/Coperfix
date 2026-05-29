@@ -1,15 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink:       #111111;
-  --color-ink-soft:  #1f1f1f;
-  --color-paper:     #ffffff;
-  --color-bone:      #f7f4ee;
-  --color-brand-red: #C7252A;
-  --color-brand-red-dark: #a81e22;
+  /* ── Core palette ───────────────────────── */
+  --color-ink:       #0c1a13;
+  --color-ink-soft:  #2a3a30;
+  --color-paper:     #fbf8f1;
+  --color-bone:      #ece3cf;
+  --color-cream:     #f5efe1;
+
+  /* ── Greens ─────────────────────────────── */
+  --color-green-950: #06180f;
+  --color-green-900: #0a2418;
+  --color-green-850: #0d2c1f;
+  --color-green-800: #102f22;
+  --color-green-700: #163a2c;
+  --color-green-600: #1f4d3a;
+  --color-green-line: #1d3d2e;
+
+  /* ── Gold (primary accent) ──────────────── */
+  --color-brand-red:      #c9a14e;
+  --color-brand-red-dark: #a8842f;
+  --color-gold:      #c9a14e;
+  --color-gold-2:    #d9b667;
+  --color-gold-soft: #e6cf95;
+  --color-gold-deep: #a8842f;
+
+  /* ── Neutrals ───────────────────────────── */
   --color-gray-300:  #d1d5db;
   --color-gray-500:  #6b7280;
   --color-gray-700:  #374151;
+  --color-mute:      #7c8a82;
 
   --font-heading: var(--font-oswald), system-ui, sans-serif;
   --font-serif:   var(--font-playfair), Georgia, serif;
@@ -22,7 +42,7 @@ body {
   font-family: var(--font-body);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #111111;
+  color: #0c1a13;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,14 +86,14 @@ h1, h2, h3, h4, h5, h6 {
 
 /* ── Service row hover ───────────────────── */
 .service-row:hover {
-  background: linear-gradient(90deg, rgba(199,37,42,0.08) 0%, transparent 100%);
+  background: linear-gradient(90deg, rgba(201,161,78,0.08) 0%, transparent 100%);
   padding-left: clamp(0.5rem, 2vw, 1.5rem);
 }
 
 /* ── Gallery scrollbar ───────────────────── */
 .gallery-scroll::-webkit-scrollbar        { height: 6px; }
 .gallery-scroll::-webkit-scrollbar-track  { background: rgba(0,0,0,0.05); }
-.gallery-scroll::-webkit-scrollbar-thumb  { background: #C7252A; border-radius: 3px; }
+.gallery-scroll::-webkit-scrollbar-thumb  { background: #c9a14e; border-radius: 3px; }
 
 /* ── Work page gallery grid ──────────────── */
 .work-gallery-grid {

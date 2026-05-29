@@ -25,15 +25,15 @@ const playfair = Playfair_Display({
 });
 
 export const metadata = {
-  title: "R & D Perez Construction | Beaverton Oregon Roofing, Decks, Masonry & More",
+  title: "Coperfix | Copertine moderne la comandă · Chișinău, Moldova",
   description:
-    "R & D Perez Construction LLC provides professional roofing, masonry, deck, and fence services in Beaverton, Oregon and the Portland Metro area. Licensed & insured. Free estimates. Call (541) 992-3126.",
+    "Coperfix confecționează și montează copertine, terase, balcoane, garduri, parcari auto în Moldova. Echipă proprie, prețuri fixe, garanție 10 ani. Solicită ofertă gratuită.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="ro"
       className={`${inter.variable} ${oswald.variable} ${playfair.variable} h-full`}
     >
       <body className="min-h-full flex flex-col antialiased">
